@@ -1,3 +1,7 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -20,7 +24,7 @@ body {
 
 .header-links {
     display: flex;
-    gap: 10px;
+    gap: 16px;
     align-items: center;
 }
 
@@ -63,12 +67,12 @@ a {
     padding: 10px 30px;
     color: white;
     font-size: 24px;
-    width: 150px;
+    width: 180px;
     border-radius: 10px;
     border-color: #3882F6;
 }
 
-img {
+.im1 {
     flex: 1 0 50%;
     width: 500px;
     height: auto;
@@ -92,6 +96,25 @@ img {
 
 .image-container {
     display: flex;
+    gap: 40px;
+    flex: auto;
+}
+
+.pic-cap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.im2,
+.im3,
+.im4 {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    border-width: 10px;
+    border-color: #3882F6;
 }
 
 .box-three {
@@ -112,13 +135,25 @@ img {
 .b4-card {
     background-color: #3882F6;
     display: flex;
-    padding: 50px 100px;
+    padding: 50px 180px;
     gap: 50px
+}
+
+.b4-heading {
+    font-size: 36px;
+    color: #E5E7EB;
+    font-weight: 800;
+}
+
+.b4-text {
+    font-size: 24px;
+    color: #E5E7EB;
 }
 
 .button-2 {
     background-color: #3882F6;
     color: white;
+    font-size: 18px;
     border-radius: 10px;
     border-color: white;
     padding: 5px 15px;
@@ -128,4 +163,5 @@ img {
     text-align: center;
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 16px;
 }
